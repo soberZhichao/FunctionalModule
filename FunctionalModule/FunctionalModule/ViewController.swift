@@ -11,12 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableview: UITableView!
-    var propertyList: [String] = []
-    
+    var propertyList: [[String: String]] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        guard let property = getPropertyList() as? [String] else {
+        guard let property = getPropertyList() as? [[String: String]] else {
             return
         }
         
@@ -54,13 +54,21 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
-        cell.textLabel?.text = propertyList[indexPath.row]
+        cell.textLabel?.text = propertyList[indexPath.row]["func"]
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = XMLAnalysisViewController()
+        guard let className = propertyList[indexPath.row]["class"] else{
+            return
+        }
+        var projectName = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
+        projectName = projectName.replacingOccurrences(of: "-", with: "_")
+        guard let classT = NSClassFromString(projectName + "." + className) as? UIViewController.Type else {
+            return
+        }
+        let vc = classT.init()
         navigationController?.pushViewController(vc, animated: true)
     }
 }

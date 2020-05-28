@@ -16,6 +16,7 @@
 		B2692A67246D104A00AE812D /* FunctionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2692A66246D104A00AE812D /* FunctionList.plist */; };
 		B2692A6A246D10DD00AE812D /* XMLAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A69246D10DD00AE812D /* XMLAnalysisViewController.swift */; };
 		B2692A6C246D10FF00AE812D /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = B2692A6B246D10FF00AE812D /* config.xml */; };
+		B295D97D247F4FFB0031117C /* PDFReaderViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D97C247F4FFB0031117C /* PDFReaderViewerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B2692A66246D104A00AE812D /* FunctionList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FunctionList.plist; sourceTree = "<group>"; };
 		B2692A69246D10DD00AE812D /* XMLAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLAnalysisViewController.swift; sourceTree = "<group>"; };
 		B2692A6B246D10FF00AE812D /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		B295D97C247F4FFB0031117C /* PDFReaderViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderViewerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		B2692A51246CF50500AE812D /* FunctionalModule */ = {
 			isa = PBXGroup;
 			children = (
+				B295D97B247F4FE40031117C /* PDF阅读器 */,
 				B2692A68246D10A500AE812D /* XML解析 */,
 				B2692A52246CF50500AE812D /* AppDelegate.swift */,
 				B2692A54246CF50500AE812D /* SceneDelegate.swift */,
@@ -82,6 +85,14 @@
 				B2692A6B246D10FF00AE812D /* config.xml */,
 			);
 			path = "XML解析";
+			sourceTree = "<group>";
+		};
+		B295D97B247F4FE40031117C /* PDF阅读器 */ = {
+			isa = PBXGroup;
+			children = (
+				B295D97C247F4FFB0031117C /* PDFReaderViewerController.swift */,
+			);
+			path = "PDF阅读器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				B2692A53246CF50500AE812D /* AppDelegate.swift in Sources */,
 				B2692A6A246D10DD00AE812D /* XMLAnalysisViewController.swift in Sources */,
 				B2692A55246CF50500AE812D /* SceneDelegate.swift in Sources */,
+				B295D97D247F4FFB0031117C /* PDFReaderViewerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

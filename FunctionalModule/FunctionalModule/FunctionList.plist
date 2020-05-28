@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>xml解析</string>
+	<dict>
+		<key>func</key>
+		<string>PDF阅读器</string>
+		<key>class</key>
+		<string>PDFReaderViewerController</string>
+	</dict>
+	<dict>
+		<key>func</key>
+		<string>XML解析</string>
+		<key>class</key>
+		<string>XMLAnalysisViewController</string>
+	</dict>
 </array>
 </plist>
