@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.2.0)
+  - HandyJSON (5.0.1)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - MJRefresh (3.4.3)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - SSZipArchive (2.2.3)
+
+DEPENDENCIES:
+  - HandyJSON
+  - Kingfisher
+  - MJRefresh
+  - Moya
+  - SSZipArchive
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - SSZipArchive
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
+
+PODFILE CHECKSUM: 40ed9a061f010fa2b794ebf2a5ce74cee5799197
+
+COCOAPODS: 1.9.1

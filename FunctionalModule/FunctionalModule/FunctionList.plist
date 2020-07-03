@@ -4,6 +4,12 @@
 <array>
 	<dict>
 		<key>func</key>
+		<string>导航栏</string>
+		<key>class</key>
+		<string>NavBarViewController</string>
+	</dict>
+	<dict>
+		<key>func</key>
 		<string>PDF阅读器</string>
 		<key>class</key>
 		<string>PDFReaderViewerController</string>
@@ -13,6 +19,18 @@
 		<string>XML解析</string>
 		<key>class</key>
 		<string>XMLAnalysisViewController</string>
+	</dict>
+	<dict>
+		<key>func</key>
+		<string>Moya</string>
+		<key>class</key>
+		<string>MoyaViewController</string>
+	</dict>
+	<dict>
+		<key>func</key>
+		<string>zip</string>
+		<key>class</key>
+		<string>ZipArchiveController</string>
 	</dict>
 </array>
 </plist>

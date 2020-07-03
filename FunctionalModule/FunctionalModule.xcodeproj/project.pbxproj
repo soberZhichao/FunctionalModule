@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21E1BAC24AC87A60060888E /* ZipArchiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E1BAB24AC87A60060888E /* ZipArchiveController.swift */; };
 		B2692A53246CF50500AE812D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A52246CF50500AE812D /* AppDelegate.swift */; };
 		B2692A55246CF50500AE812D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A54246CF50500AE812D /* SceneDelegate.swift */; };
 		B2692A57246CF50500AE812D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A56246CF50500AE812D /* ViewController.swift */; };
@@ -16,10 +17,18 @@
 		B2692A67246D104A00AE812D /* FunctionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2692A66246D104A00AE812D /* FunctionList.plist */; };
 		B2692A6A246D10DD00AE812D /* XMLAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2692A69246D10DD00AE812D /* XMLAnalysisViewController.swift */; };
 		B2692A6C246D10FF00AE812D /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = B2692A6B246D10FF00AE812D /* config.xml */; };
+		B269837524888AE900D6B5A4 /* MoyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269837424888AE900D6B5A4 /* MoyaViewController.swift */; };
+		B269839E2488978C00D6B5A4 /* GDIMoyaProviderBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269839A2488978C00D6B5A4 /* GDIMoyaProviderBase.swift */; };
+		B269839F2488978C00D6B5A4 /* DecodePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269839B2488978C00D6B5A4 /* DecodePlugin.swift */; };
+		B26983A02488978C00D6B5A4 /* AuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269839C2488978C00D6B5A4 /* AuthPlugin.swift */; };
+		B26983A12488978C00D6B5A4 /* GDIMoyaBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269839D2488978C00D6B5A4 /* GDIMoyaBaseModel.swift */; };
 		B295D97D247F4FFB0031117C /* PDFReaderViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D97C247F4FFB0031117C /* PDFReaderViewerController.swift */; };
+		B295D9A2247FAB550031117C /* NavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D9A1247FAB550031117C /* NavBarViewController.swift */; };
+		EC5FCC461F466F4EF743E685 /* Pods_FunctionalModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320462F5B39C80D61007739 /* Pods_FunctionalModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B21E1BAB24AC87A60060888E /* ZipArchiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipArchiveController.swift; sourceTree = "<group>"; };
 		B2692A4F246CF50500AE812D /* FunctionalModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2692A52246CF50500AE812D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2692A54246CF50500AE812D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +40,16 @@
 		B2692A66246D104A00AE812D /* FunctionList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FunctionList.plist; sourceTree = "<group>"; };
 		B2692A69246D10DD00AE812D /* XMLAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLAnalysisViewController.swift; sourceTree = "<group>"; };
 		B2692A6B246D10FF00AE812D /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		B269837424888AE900D6B5A4 /* MoyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaViewController.swift; sourceTree = "<group>"; };
+		B269839A2488978C00D6B5A4 /* GDIMoyaProviderBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDIMoyaProviderBase.swift; sourceTree = "<group>"; };
+		B269839B2488978C00D6B5A4 /* DecodePlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodePlugin.swift; sourceTree = "<group>"; };
+		B269839C2488978C00D6B5A4 /* AuthPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPlugin.swift; sourceTree = "<group>"; };
+		B269839D2488978C00D6B5A4 /* GDIMoyaBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDIMoyaBaseModel.swift; sourceTree = "<group>"; };
 		B295D97C247F4FFB0031117C /* PDFReaderViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderViewerController.swift; sourceTree = "<group>"; };
+		B295D9A1247FAB550031117C /* NavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarViewController.swift; sourceTree = "<group>"; };
+		C320462F5B39C80D61007739 /* Pods_FunctionalModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionalModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98CD5DC509D0B8321AB74DA /* Pods-FunctionalModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalModule.release.xcconfig"; path = "Target Support Files/Pods-FunctionalModule/Pods-FunctionalModule.release.xcconfig"; sourceTree = "<group>"; };
+		FE74F86336EAC21E83A8C103 /* Pods-FunctionalModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalModule.debug.xcconfig"; path = "Target Support Files/Pods-FunctionalModule/Pods-FunctionalModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5FCC461F466F4EF743E685 /* Pods_FunctionalModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		591D6553A5B01183B6EA70B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE74F86336EAC21E83A8C103 /* Pods-FunctionalModule.debug.xcconfig */,
+				D98CD5DC509D0B8321AB74DA /* Pods-FunctionalModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B21E1BAA24AC87280060888E /* 压缩解压 */ = {
+			isa = PBXGroup;
+			children = (
+				B21E1BAB24AC87A60060888E /* ZipArchiveController.swift */,
+			);
+			path = "压缩解压";
+			sourceTree = "<group>";
+		};
 		B2692A46246CF50500AE812D = {
 			isa = PBXGroup;
 			children = (
 				B2692A51246CF50500AE812D /* FunctionalModule */,
 				B2692A50246CF50500AE812D /* Products */,
+				591D6553A5B01183B6EA70B1 /* Pods */,
+				E002793441833691054CDAC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +102,9 @@
 		B2692A51246CF50500AE812D /* FunctionalModule */ = {
 			isa = PBXGroup;
 			children = (
+				B21E1BAA24AC87280060888E /* 压缩解压 */,
+				B269837324888AD600D6B5A4 /* Moya */,
+				B295D99E247FAB100031117C /* 导航栏 */,
 				B295D97B247F4FE40031117C /* PDF阅读器 */,
 				B2692A68246D10A500AE812D /* XML解析 */,
 				B2692A52246CF50500AE812D /* AppDelegate.swift */,
@@ -87,12 +128,48 @@
 			path = "XML解析";
 			sourceTree = "<group>";
 		};
+		B269837324888AD600D6B5A4 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				B26983992488978C00D6B5A4 /* MoyaPlugin */,
+				B269837424888AE900D6B5A4 /* MoyaViewController.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		B26983992488978C00D6B5A4 /* MoyaPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				B269839A2488978C00D6B5A4 /* GDIMoyaProviderBase.swift */,
+				B269839B2488978C00D6B5A4 /* DecodePlugin.swift */,
+				B269839C2488978C00D6B5A4 /* AuthPlugin.swift */,
+				B269839D2488978C00D6B5A4 /* GDIMoyaBaseModel.swift */,
+			);
+			path = MoyaPlugin;
+			sourceTree = "<group>";
+		};
 		B295D97B247F4FE40031117C /* PDF阅读器 */ = {
 			isa = PBXGroup;
 			children = (
 				B295D97C247F4FFB0031117C /* PDFReaderViewerController.swift */,
 			);
 			path = "PDF阅读器";
+			sourceTree = "<group>";
+		};
+		B295D99E247FAB100031117C /* 导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				B295D9A1247FAB550031117C /* NavBarViewController.swift */,
+			);
+			path = "导航栏";
+			sourceTree = "<group>";
+		};
+		E002793441833691054CDAC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C320462F5B39C80D61007739 /* Pods_FunctionalModule.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2692A63246CF50900AE812D /* Build configuration list for PBXNativeTarget "FunctionalModule" */;
 			buildPhases = (
+				CD68B0491226BAAA067E7BAB /* [CP] Check Pods Manifest.lock */,
 				B2692A4B246CF50500AE812D /* Sources */,
 				B2692A4C246CF50500AE812D /* Frameworks */,
 				B2692A4D246CF50500AE812D /* Resources */,
+				40748AEC8CFC8B1BB57C94A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +242,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40748AEC8CFC8B1BB57C94A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunctionalModule/Pods-FunctionalModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunctionalModule/Pods-FunctionalModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunctionalModule/Pods-FunctionalModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD68B0491226BAAA067E7BAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunctionalModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2692A4B246CF50500AE812D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -170,9 +291,16 @@
 			files = (
 				B2692A57246CF50500AE812D /* ViewController.swift in Sources */,
 				B2692A53246CF50500AE812D /* AppDelegate.swift in Sources */,
+				B21E1BAC24AC87A60060888E /* ZipArchiveController.swift in Sources */,
+				B295D9A2247FAB550031117C /* NavBarViewController.swift in Sources */,
 				B2692A6A246D10DD00AE812D /* XMLAnalysisViewController.swift in Sources */,
+				B269837524888AE900D6B5A4 /* MoyaViewController.swift in Sources */,
+				B26983A02488978C00D6B5A4 /* AuthPlugin.swift in Sources */,
 				B2692A55246CF50500AE812D /* SceneDelegate.swift in Sources */,
+				B269839F2488978C00D6B5A4 /* DecodePlugin.swift in Sources */,
 				B295D97D247F4FFB0031117C /* PDFReaderViewerController.swift in Sources */,
+				B269839E2488978C00D6B5A4 /* GDIMoyaProviderBase.swift in Sources */,
+				B26983A12488978C00D6B5A4 /* GDIMoyaBaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,16 +442,20 @@
 		};
 		B2692A64246CF50900AE812D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE74F86336EAC21E83A8C103 /* Pods-FunctionalModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXF7ZXD635;
 				INFOPLIST_FILE = FunctionalModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.n22.IosGuangDa.phone.FunctionalModule;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n22.IosGuangDa.phone.ceshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,16 +463,20 @@
 		};
 		B2692A65246CF50900AE812D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98CD5DC509D0B8321AB74DA /* Pods-FunctionalModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXF7ZXD635;
 				INFOPLIST_FILE = FunctionalModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.n22.IosGuangDa.phone.FunctionalModule;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n22.IosGuangDa.phone.ceshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios,’11.0’
+use_frameworks!
+
+target 'FunctionalModule' do
+  pod 'Moya'
+  pod 'HandyJSON'
+  pod 'Kingfisher'
+  pod 'MJRefresh'
+  pod 'SSZipArchive'
+
+end
